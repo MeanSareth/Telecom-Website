@@ -1,0 +1,26 @@
+body,
+hmtl {
+    padding-top: 5em;
+}
+
+body {
+    background-image: url('../img/bgImg.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0.8;
+}
+
+.sign-form {
+    background: #34495E;
+    margin: 0 auto;
+    border-radius: 4px;
+    @media(min-width: 576px) {
+        width: 400px;
+    }
+    img {
+        width: 120px;
+        height: 120px;
+        margin-top: -60px;
+    }
+}
